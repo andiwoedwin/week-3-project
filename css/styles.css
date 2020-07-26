@@ -20,3 +20,21 @@
 .paragraph{
     text-align: center;
 }
+.portfolio{
+    height: 20vh;
+    display: inline;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.icons {
+    position: relative;
+    width: 50%;
+    display: inline;
+    row-gap: 100px;
+  }
+  
+  .contacts{
+      background-image: url("../images/c_image.jpg")
+      background-repeat: no-repeat;
+  }
