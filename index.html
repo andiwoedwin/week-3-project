@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -14,78 +14,133 @@
 <body>
     <div class="container">
         <div class="jumbotron main">
-            <img src="images/logo.png">
-            <h1>WELCOME </h1>
-            <h1>TO DELANI STUDIO</h1>
-            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</p>
-            <img src="images/mouse_click.png">
+            <img src="images/logo.png" alt="logo" id="logo">
+               <h1>WELCOME <br>TO DELANI STUDIO</h1> 
+    
+                  <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                  <div class="mouse-click"></div>
+                  <a href="#about-us"><img src="images/mouse_click.png" alt=" mouse_click" id="mouse-click"></a> 
+                  </div>
         </div>
-        <div class="paragraph">
-        <h2>About us</h2>
-        <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software deveopment process are intergrated, interactive and agile.</p>
-        <p>Our approach unifies design, development and product management to create exemptional products.</p>
-        <p>We start each project by understanding your business goals, the user,s needs and the product requirements.</p>
-        <p>Then we help translate them into effective and elegant solution</p>
+  <div class="about-us" id="about">
+    <h2>ABOUT US</h2>
+    <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated , interactive and agile.</p>
+    <p>Our approach unifies design, development and product managent to create exceptional products.</p> 
+    <p>We start each project by understanding your business goals, the users needs and the product requirements.</p>
+    <p>we help translate them into active and elegant solutions.</p>
+  </div>
+  <div class="services">
+    <div id="service">
+      <h2>SERVICES</h2>
+      <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
+      <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
+      <p>based on your requirements, we can provide a complete offering or just the piece you need. </p>
+    </div>
+  </div> 
+  <div class="what-we-do">
+    <h2>WHAT WE DO</h2>
+    <div class="row">
+      <div class="column">
+        <div id="design">
+          <h2 class="title">DESIGN</h2>
+          <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+            <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
-        <div class="parag2">
-            <h4>SERVICES</h4>
-            <P>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vision</P>
-            <p>The outcome of this scoping session is proposal on high level statement of work</p>
-            <p>based on your requirements, we can provide  a complete offering or just the pieces you need.</p>
-
+        <div id="design-img">
+          <img src="images/design_icon.png">
         </div>
-        <div class="icons">
-            <img src="images/design_icon.png">
-            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-        
-            
-            <img src="images/dev_icon.png">
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-            
-            <img src="images/product_icon.png">
-            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-                This iterative process allows for changes as business requirements evolve.</p>
-        
+      </div>
+      <div class="column">
+        <div id="dvpnt">
+          <h2 class="title">DEVELOPMENT</h2>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+             <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
-        <div class="portfolio">
-            <h4>portfolio</h4>
-            <img src="images/work4.jpg" width="20%">
-            <img src="images/work3.jpg" width="20%">
-            <img src="images/work2.jpg" width="20%">
-            <img src="images/work1.jpg" width="20%">
-            <img src="images/work5.jpg" width="20%"> 
-            <img src="images/work6.jpg" width="20%">
-            <img src="images/work7.jpg" width="20%">
-            <img src="images/work8.jpg" width="20%">
+        <div id="dvpnt-img">
+          <img src="images/dev_icon.png">
         </div>
-        <div class="contacts">
-            <form action="/action_page.php">
-                <label for="fname">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name..">
-                <label for="E-mail">E-mail</label>
-                <input type="text" id="mail" name="mail" placeholder="email.adress..">
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                <input type="submit" value="Submit">
+      </div>
+      <div class="column">
+        <div id="product">
+          <h2 class="title">PRODUCT MANAGEMENT</h2>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+          <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
-
-        
+        <div id="product-img">
+          <img src="images/product_icon.png">
+        </div>
       </div>
     </div>
-    <footer>
-        <img src="images/twitter.png" alt="twitter">
-        <img src="images/skype.png" alt="Skype">
-        <img src="images/you_tube.png" alt="You tube">
-        <img src="images/stumble_upon.png" alt="Stumble upon">
-        <img src="images/pinterest.png" alt="Pinterest">
-        <img src="images/behance.png" alt="Behance">
-        <img src="images/facebook.png" alt="Facebook">
-        <img src="images/dribble.png" alt="dribble">
-        <img src="images/flickr.png" alt="flickr">
-        <img src="images/g_plus.png" alt="google +">
-        
-    </footer>
+  </div>
+  <div class="portfolio">
+    <h2>PORTFOLIO</h2>
+    <div class="row" id="portfolio">
+      <div class="col1" id="work4">
+        <img src="images/work4.jpg">
+        <p id="overlay">Black Studio</p>
+      </div>
+      <div class="col1" id="work3">
+        <img src="images/work3.jpg">
+        <p id="overlay1">Ontario Security</p>
+      </div>
+      <div class="col1" id="work2">
+        <img src="images/work2.jpg">
+        <p id="overlay2">Pyramids</p>
+      </div>
+      <div class="col1" id="work1">
+        <img src="images/work1.jpg">
+        <p id="overlay3">Jim Carry</p>
+      </div>
+    </div>
+    <div class="row" id="portfolio">
+        <div class="col1" id="work5">
+          <img src="images/work5.jpg">
+          <p id="overlay4">Have A Nice Day</p>
+        </div>
+        <div class="col1" id="work6">
+          <img src="images/work6.jpg">
+          <p id="overlay6">Calculator</p>
+        </div>
+        <div class="col1" id="work7">
+          <img src="images/work7.jpg">
+          <p id="overlay7">Burned</p>
+        </div>
+        <div class="col1" id="work8">
+          <img src="images/work8.jpg">
+          <p id="overlay8">Giraffe Restaurant</p>
+        </div>
+      </div>
+  </div> 
+  <div class="contact">
+    <h2>CONTACT US</h2>
+
+    <form id="form34A" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
+      <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
+      <input type="hidden" name="id" value="dbf7e27685">
+      <div class="form-group form-inline">
+        <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+        <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+    </form>
+  </div>
+  <footer>
+    <img src="images/twitter.png" alt="twitter">
+    <img src="images/dribble.png" alt="dribble">
+    <img src="images/facebook.png" alt="facebook">
+    <img src="images/g_plus.png" alt="g_plus">
+    <img src="images/skype.png" alt="skype">
+    <img src="images/stumble_upon.png" alt="stumble_upon">
+    <img src="images/behance.png" alt="behance">
+    <img src="images/pinterest.png" alt="pinterest">
+    <img src="images/flickr.png" alt="flickr">
+    <p>DELANI STUDIO<br>2020</p>
+  </footer>
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
+  <script src="js/jquery-3.5.1 (2).js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
