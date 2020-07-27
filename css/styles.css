@@ -3,6 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
+    text-align: center;
+    color: antiquewhite;
 }
 .parag2 {
     background-image: url("../images/s_image.jpg");
@@ -13,50 +15,6 @@
     text-align: center;
     color: antiquewhite;
 }
-.main{
-    text-align: center;
-    color: aliceblue;
-}
-.paragraph{
+.about-us{
     text-align: center;
 }
-.portfolio{
-    height: 20vh;
-    display: inline;
-    text-align: center;
-    justify-content: space-around;
-    
-}
-.icons {
-    position: relative;
-    width: 50%;
-    display: inline;
-    row-gap: 100px;
-}
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-
-.contacts {
-    background-image: url("../images/c_image.jpg");
-    background-size: cover
-}
-.social-icons {
-    align: center;
-}
-  
