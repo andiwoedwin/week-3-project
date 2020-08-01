@@ -54,7 +54,10 @@
 /* portfolio section */
 .k{
     text-align: center;
-    margin-top:120px;
+    margin-top:90px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
 }
 .one1{
     width:100%;
@@ -74,7 +77,7 @@
     display: none;
     top: 0.0em;
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .one3{
     width:100%;
@@ -104,7 +107,7 @@
     display: none;
     top: 0.0em;
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 .one6{
     width:100%;
@@ -114,7 +117,7 @@
     display: none;
     top: 0.0em;
     position: absolute;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .one7{
     width:100%;
@@ -124,7 +127,7 @@
     display: none;
     top: 0.0em;
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.5;
 }
 .one8{
     width:100%;
@@ -134,7 +137,7 @@
     display: none;
     top: 0.0em;
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.5;
 }
 .contact {
     background-image: url("../images/c_image.jpg");
