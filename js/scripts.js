@@ -1,29 +1,9 @@
-$(document).ready(function(){
-  $("#design-img").click(function(){
-    $("#p1").hide().toggle();
-    $("#design").slideUp();
-  });
-    $(".p1").click(function(){
-      $("#design").slideDown();
-      $(".p1").hide();
-    });
-    $("#dev-img").click(function(){
-      $(".p2").hide().toggle();
-      $("#dev-img").slideUp();
-    });
-      $(".p2").click(function(){
-        $("#dev-img").slideDown();
-        $(".p2").hide();
-      });
-      $("#prd-img").click(function(){
-        $(".p3").hide().toggle();
-        $("#design-img").slideUp();
-      });
-        $(".p3").click(function(){
-          $("#d-img").slideDown();
-          $(".p3").hide();
-        });
-});
+// what we do section
+$(".text").hide();
+   $(".col-md-4").click(function () {
+     $(this).children(".text").slideToggle(500);
+     $(this).children(".col-md-4").fadeToggle(500);
+   });
 // portfolio
 $(document).ready(function(){
   $(".mm1").mouseover(function(){
