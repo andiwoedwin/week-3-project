@@ -1,9 +1,9 @@
 // what we do section
-$(".text").hide();
-   $(".col-md-4").click(function () {
-     $(this).children(".text").slideToggle(500);
-     $(this).children(".col-md-4").fadeToggle(500);
-   });
+ $(".text").hide();
+    $(".col-md-4").click(function () {
+      $(this).children(".text").slideToggle(500);
+      $(this).children(".col-md-4").fadeToggle(500);
+    });
 // portfolio
 $(document).ready(function(){
   $(".mm1").mouseover(function(){
